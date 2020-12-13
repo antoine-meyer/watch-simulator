@@ -9,7 +9,7 @@ function setup()
   couleurFond = 0
   couleurAiguille = 255
   // je créé un bouton qui contient le texte Appuyer ici
-  mon_bouton=createButton('Mode jour/nuit');
+  mon_bouton=createButton('Light/Dark Mode');
   // la position du bouton en x , y
   mon_bouton.position(10,10);
   mon_bouton.mousePressed(mon_action);
